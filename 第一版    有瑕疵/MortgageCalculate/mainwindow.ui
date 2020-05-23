@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>705</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始计算</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>贷款类别</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>贷款方式</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>商业贷款</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>公积金贷款</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>组合型贷款</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>根据面积、单价计算</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>根据贷款总额计算</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>91</width>
+      <height>87</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>房屋单价
+
+
+房屋面积</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>元/平米
+
+
+平米</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>91</width>
+      <height>87</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>商贷贷款
+
+
+公积金贷款</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>190</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>240</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>190</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>万元
+
+
+万元</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>按揭成数
+
+
+按揭年数</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>290</y>
+      <width>87</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>9成</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8成</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7成</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6成</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5成</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4成</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3成</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>340</y>
+      <width>87</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24年</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25年</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>商贷利率
+
+
+公积金利率</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>380</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>430</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>380</y>
+      <width>71</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>%
+
+
+%</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>还款方式</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>470</y>
+      <width>87</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>等额本息</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>等额本金</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>100</y>
+      <width>321</width>
+      <height>411</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_11">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="plainText">
+     <string>计算结果</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>705</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
